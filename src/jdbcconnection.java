@@ -7,8 +7,16 @@ import java.sql.Statement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class jdbcconnection {
+	
+	@Test
+	public void postJira()
+	{
+		System.out.println("postJira");
+		
+	}
 
 	public static void main(String[] args) throws SQLException {
 		// TODO Auto-generated method stub
