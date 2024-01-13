@@ -16,6 +16,11 @@ public class jdbcconnection {
 	{
 		System.out.println("postJira");
 		
+		System.out.println("postJira2");
+		System.out.println("postJira3");
+
+		
+		
 	}
 
 	public static void main(String[] args) throws SQLException {
